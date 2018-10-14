@@ -1,4 +1,4 @@
-# GeoIP2 for Laravel 5.4-5.5
+# GeoIP2 for Laravel 5.4-5.7
 
 ##### Note: For Laravel 5.2-5.3 use version tagged 1.1.5 
 
@@ -35,12 +35,12 @@ Talkative\LaravelGeoIP2\GeoIP2ServiceProvider::class,
 
 4) Run the command below to publish the package:
 
-``` php
+``` bash
 $ php artisan vendor:publish --provider="Talkative\LaravelGeoIP2\GeoIP2ServiceProvider"
 ```
 
 5) Run the update command to download the latest required databases
 
-``` php
+``` bash
 $ php artisan geoip:update
 ```

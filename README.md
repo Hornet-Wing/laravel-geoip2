@@ -23,12 +23,12 @@ composer require talkative/laravel-geoip2
 
 2) Run the command below to publish the package:
 
-``` php
+``` bash
 $ php artisan vendor:publish --provider="Talkative\LaravelGeoIP2\GeoIP2ServiceProvider"
 ```
 
 3) Run the update command to download the latest required databases
 
-``` php
+``` bash
 $ php artisan geoip:update
 ```

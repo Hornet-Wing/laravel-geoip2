@@ -12,6 +12,14 @@
         {
             "name": "Jakub Srsen",
             "email": "jsrsen@talkative.uk"
+        },
+        {
+            "name": "Dave Hennigar",
+            "email": "dave.hennigar@gmail.com"
+        },
+        {
+            "name": "Csanad Novak",
+            "email": "csanad.novak@trendideas.com"
         }
     ],
     "support": {
@@ -22,9 +30,9 @@
         "php": ">=5.4.0",
         "geoip2/geoip2": "~2.0",
         "guzzlehttp/guzzle": "~6.1",
-        "illuminate/config": "~4.1|~5.0",
-        "illuminate/http": "~4.1|~5.0",
-        "illuminate/support": "~4.1|~5.0"
+        "illuminate/config": "^6.0",
+        "illuminate/http": "^6.0",
+        "illuminate/support": "^6.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "~4.0",

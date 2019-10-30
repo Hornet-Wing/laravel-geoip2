@@ -1,6 +1,7 @@
-# GeoIP2 for Laravel 5.4-5.8
+# GeoIP2 for Laravel 6.x
 
-##### Note: For Laravel 5.2-5.3 use version tagged 1.1.5 
+**Note: For Laravel 5.2-5.3 use version tagged [1.1.5](https://github.com/Hornet-Wing/laravel-geoip2/tree/1.1.5)**  
+**Note: For Laravel 5.4-5.8 use version tagged [2.0.2](https://github.com/Hornet-Wing/laravel-geoip2/tree/2.0.2)**
 
 ## Installation
 
@@ -19,28 +20,15 @@
 ``` bash
 composer require talkative/laravel-geoip2
 ```
-##### Laravel 5.5 (and later) Install skip to step 4.
 
-2) Open your `config/app.php` and add the following to the `providers` array:
+2) Run the command below to publish the package:
 
-``` php
-Talkative\LaravelGeoIP2\GeoIP2ServiceProvider::class,
-```
-
-3) In the same config/app.php and add the following to the aliases array:
-
-``` php
-'GeoIP2' => Talkative\LaravelGeoIP2\GeoIP2Facade::class,
-```
-
-4) Run the command below to publish the package:
-
-``` php
+``` bash
 $ php artisan vendor:publish --provider="Talkative\LaravelGeoIP2\GeoIP2ServiceProvider"
 ```
 
-5) Run the update command to download the latest required databases
+3) Run the update command to download the latest required databases
 
-``` php
+``` bash
 $ php artisan geoip:update
 ```

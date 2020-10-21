@@ -1,9 +1,10 @@
 <?php
+
 namespace Talkative\LaravelGeoIP2;
 
+use Illuminate\Http\Request;
 use GeoIp2\WebService\Client;
 use Illuminate\Config\Repository as Config;
-use Illuminate\Http\Request;
 use Talkative\LaravelGeoIP2\Provider\DatabaseProvider;
 use Talkative\LaravelGeoIP2\Provider\LocalhostProvider;
 

@@ -1,4 +1,5 @@
 <?php
+
 namespace Talkative\LaravelGeoIP2\Provider;
 
 use GeoIp2\Model\City;
@@ -19,7 +20,7 @@ class LocalhostProvider implements ProviderInterface
     /**
      * @inheritdoc
      */
-    public function country($ipAddress)
+    public function country($ipAddress): Country
     {
         return new Country($this->raw);
     }
@@ -27,7 +28,7 @@ class LocalhostProvider implements ProviderInterface
     /**
      * @inheritdoc
      */
-    public function city($ipAddress)
+    public function city($ipAddress): City
     {
         return new City($this->raw);
     }

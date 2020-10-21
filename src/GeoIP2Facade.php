@@ -1,4 +1,5 @@
 <?php
+
 namespace Talkative\LaravelGeoIP2;
 
 use Illuminate\Support\Facades\Facade;

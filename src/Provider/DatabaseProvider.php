@@ -1,6 +1,9 @@
 <?php
+
 namespace Talkative\LaravelGeoIP2\Provider;
 
+use GeoIp2\Model\City;
+use GeoIp2\Model\Country;
 use GeoIp2\Database\Reader;
 use GeoIp2\ProviderInterface;
 use Talkative\LaravelGeoIP2\GeoIP2Exception;
@@ -47,7 +50,7 @@ class DatabaseProvider implements ProviderInterface
     /**
      * @inheritdoc
      */
-    public function country($ipAddress)
+    public function country($ipAddress): Country
     {
         return $this->__call('country', [$ipAddress]);
     }
@@ -55,7 +58,7 @@ class DatabaseProvider implements ProviderInterface
     /**
      * @inheritdoc
      */
-    public function city($ipAddress)
+    public function city($ipAddress): City
     {
         return $this->__call('city', [$ipAddress]);
     }

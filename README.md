@@ -1,8 +1,8 @@
 # GeoIP2 for Laravel 7.x and 8.x
 
 **Note: For Laravel 5.2-5.3 use version tagged [1.1.5](https://github.com/Hornet-Wing/laravel-geoip2/tree/1.1.5)**  
-**Note: For Laravel 5.4-5.8 use version tagged [2.0.2](https://github.com/Hornet-Wing/laravel-geoip2/tree/2.0.2)**
-**Note: For Laravel 6.x use version tagged [3.0.2](https://github.com/Hornet-Wing/laravel-geoip2/tree/3.0.2)**
+**Note: For Laravel 5.4-5.8 use version tagged [2.0.2](https://github.com/Hornet-Wing/laravel-geoip2/tree/2.0.2)**  
+**Note: For Laravel 6.x use version tagged [3.0.2](https://github.com/Hornet-Wing/laravel-geoip2/tree/3.0.2)**  
 
 ## Installation
 

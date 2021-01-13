@@ -117,7 +117,7 @@ class GeoIP2Update
                     'user_id' => $this->userId,
                     'edition_id' => $productId,
                 ],
-                'save_to' => $tmpFilepath,
+                'sink' => $tmpFilepath,
                 'decode_content' => false
             ]);
         }
